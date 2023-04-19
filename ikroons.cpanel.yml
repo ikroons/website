@@ -1,0 +1,7 @@
+---
+deploy:
+  tasks:
+    - export DEPLOYPATH=/home/username/public_html/
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/chmod -R 755 $DEPLOYPATH
+    - /bin/chown -R ikroonsc:ikroonsc $DEPLOYPATH
