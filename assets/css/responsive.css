@@ -40,12 +40,15 @@
 
     .section-title h2 {
         font-size: 30px
+        
     }
 
     .side-nav a {
         padding: 4px 10px !important;
         top: 14px !important;
-        font-size: 12px !important
+        font-size: 12px !important;
+        color: #fff;
+        background-color: #332002;
     }
 
     .header-area {
@@ -1148,14 +1151,14 @@
     }
 
     .mean-container a.meanmenu-reveal {
-        color: #ff4900
+        color: #e29209
     }
 
     .mean-container a.meanmenu-reveal span {
         margin-top: 30px;
         position: relative;
         top: -10px;
-        background-color: #ff4900;
+        background-color: #e29209;
         border-radius: 0%
     }
 
@@ -1165,7 +1168,7 @@
     }
 
     .mobile-nav.mean-container .mean-nav ul li a.active {
-        color: #ff4900
+        color: #e29209
     }
 
     .navbar-nav {

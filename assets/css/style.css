@@ -89,7 +89,7 @@ button:focus {
 .common-btn {
     display: inline-block;
     color: #fff;
-    background-color: #332002;
+    background-color: #000000;
     padding: 10px 25px;
     font-weight: 500;
     border: 0;
@@ -131,8 +131,16 @@ button:focus {
 }
 
 .section-title p {
+    color: #fff;
     margin-top: 10px;
     margin-bottom: 0
+}
+
+#p-co {
+    color: #000;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 20px;
 }
 
 .header-area {
@@ -447,7 +455,7 @@ button:focus {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #e29209;
+    background-color: #000000;
     opacity: .75
 }
 
@@ -627,7 +635,9 @@ button:focus {
 .feature-area {
     position: relative;
     z-index: 1;
-    margin-top: -100px
+    margin-top: -100px;
+    /* background-color: #fff; */
+
 }
 
 .feature-item {
@@ -727,7 +737,8 @@ button:focus {
     font-weight: 500;
     margin-bottom: 10px;
     position: relative;
-    padding-left: 24px
+    padding-left: 24px;
+    color: #fff;
 }
 
 .about-area .about-content .inner ul li i {
@@ -741,11 +752,15 @@ button:focus {
 }
 
 .about-area .about-content .signature img {
-    margin-bottom: 8px
+    margin-bottom: 8px;
+    padding: 2px 4px;
+    background-color: #fff;
+
 }
 
 .about-area .about-content .signature span {
     display: block;
+    color: #fff;
     font-weight: 500
 }
 
@@ -970,6 +985,10 @@ button:focus {
 
 .case-study-item .inner h3 a:hover {
     color: #e29209
+}
+#about_color {
+    color: #5d6678;
+    font-size: 18px;
 }
 
 .review-area {
@@ -1998,11 +2017,17 @@ button:focus {
 .information-item h3 a {
     color: #e29209
 }
-
 .information-item h3 a:hover {
-    color: #332002
+    color: #4285f4;
 }
 
+.information-item.two h3 a:hover {
+    color: #ffba00
+}
+
+.information-item.four h3 a:hover {
+    color: #661ae1
+}
 .service-area.two {
     background-image: url("../images/service-bg.jpg");
     background-size: cover;
@@ -2175,7 +2200,7 @@ button:focus {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: #e29209;
+    background-color: #000000;
     opacity: .85
 }
 
@@ -3506,7 +3531,9 @@ button:focus {
     margin-bottom: 20px;
     font-weight: 500
 }
-
+.terms_color{
+    color: #fff;
+}
 .rules-area .rules-item {
     margin-bottom: 30px
 }
